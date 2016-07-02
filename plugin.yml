@@ -1,9 +1,9 @@
-name: RPE
-description: The Core of ReactionPE(not exactly)
+name: CheckIP
+description: Checks a players IP!
 version: 2.0
-main: pogogo007\main
-author: Pogogo007
+main: CheckIP\Main
+author: OpenBuild Dev Team (Pogogo007)
 api: 2.0.0
 commands:
- rpecore:
-  description: display version of core plugin
+ checkip:
+  description: command to check a players IP!
