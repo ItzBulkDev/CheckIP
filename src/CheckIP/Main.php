@@ -13,3 +13,4 @@ use pocketmine\plugin\PluginBase;
 class Main extends PluginBase implements Listenener{
 
 public function onCommand(CommandSender $sender, Command $cmd, $label, array $args){
+         if(strtolower($cmd->getName()) === "checkip"){
