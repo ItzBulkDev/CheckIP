@@ -31,4 +31,4 @@ public function onCommand(CommandSender $sender, Command $cmd, $label, array $ar
 
                 $ip = $target->getAdress();
                 $playername = $target->getName();
-                
+                $sender->sendMessage("§AShowing ".$playername."’s IP §9".$ip."");
