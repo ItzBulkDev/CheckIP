@@ -7,10 +7,9 @@ use pocketmine\Server;
 use pocketmine\command\Command;
 use pocketmine\command\CommandSender;
 use pocketmine\command\ConsoleCommandSender;
-use pocketmine\event\Listener;
 use pocketmine\plugin\PluginBase;
 
-class Main extends PluginBase implements Listenener{
+class Main extends PluginBase{
 
 public function onCommand(CommandSender $sender, Command $cmd, $label, array $args){
          if(strtolower($cmd->getName()) === "checkip"){
