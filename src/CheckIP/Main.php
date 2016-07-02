@@ -17,19 +17,7 @@ public function onCommand(CommandSender $sender, Command $cmd, $label, array $ar
           $name = $args[0];
                 $target = $this->getServer()->getPlayer($name);
                 if($sender instanceof Player){
-                if($args[0] === null){
-                $sender->sendMessage("§cPlease use /checkip (player name)");
-                return false;
-                 
-                  }
-
-                  if($target === null){
-               $sender->sendMessage("§cThat Player Is Not Online!");
-                  return false;
-
-              }
-
-                $ip = $target->getAddress();
+               $ip = $target->getAddress();
                 $playername = $target->getName();
                 $sender->sendMessage("§AShowing ".$playername."’s IP §9".$ip."");
 
