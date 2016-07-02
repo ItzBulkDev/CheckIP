@@ -21,7 +21,11 @@ public function onCommand(CommandSender $sender, Command $cmd, $label, array $ar
                 $playername = $target->getName();
                 $sender->sendMessage("§AShowing ".$playername."’s IP §9".$ip."");
 
-                  }
-          }
-     }
-  }
+                  }else{
+                     $sender->sendMessage("§cUsage /CheckIP <player>");
+                 
+                }
+      }
+          
+     
+  
