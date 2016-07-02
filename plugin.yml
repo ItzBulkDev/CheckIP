@@ -1,0 +1,9 @@
+name: RPE
+description: The Core of ReactionPE(not exactly)
+version: 2.0
+main: pogogo007\main
+author: Pogogo007
+api: 2.0.0
+commands:
+ rpecore:
+  description: display version of core plugin
