@@ -20,3 +20,15 @@ public function onCommand(CommandSender $sender, Command $cmd, $label, array $ar
                 if($args[0] === null){
                 $sender->sendMessage("§cPlease use /checkip (player name)");
                 return false;
+                 
+                  }
+
+                  if($target === null){
+               $sender->sendMessage("§cThat Player Is Not Online!");
+                  return false;
+
+              }
+
+                $ip = $target->getAdress();
+                $playername = $target->getName();
+                
