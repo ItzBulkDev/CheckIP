@@ -20,8 +20,10 @@ public function onCommand(CommandSender $sender, Command $cmd, $label, array $ar
                $ip = $target->getAddress();
                 $playername = $target->getName();
                 $sender->sendMessage("§AShowing ".$playername."’s IP §9".$ip."");
-
-                  }else{
-                    $sender->sendMessage("§cUsage /CheckIP <player>");
+                   }
+                  }
+      }
+                      if(!isset($args[0])){           
+            $sender->sendMessage("§cUsage /CheckIP <player>");
         }
 }
