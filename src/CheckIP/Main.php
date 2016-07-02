@@ -24,3 +24,4 @@ public function onCommand(CommandSender $sender, Command $cmd, $label, array $ar
                   }else{
                     $sender->sendMessage("§cUsage /CheckIP <player>");
         }
+}
