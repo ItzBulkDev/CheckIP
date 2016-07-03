@@ -12,8 +12,9 @@ use pocketmine\utils\TextFormat;
 
 class Main extends PluginBase{
 
-public function onCommand(CommandSender $sender, Command $cmd, $label, array $args){
-         if(strtolower($cmd->getName()) === "checkip"){
+public function onCommand(CommandSender $sender, Command $command, $label, array $args){
+		if(strtolower($command->getName('checkip'))){
+
          if($sender->hasPermission("checkip.command"){
             
                 
