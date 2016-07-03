@@ -27,3 +27,4 @@ public function onCommand(CommandSender $sender, Command $cmd, $label, array $ar
                  }
          }
 }
+}
