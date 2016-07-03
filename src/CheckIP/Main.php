@@ -12,3 +12,5 @@ use pocketmine\utils\TextFormat;
 
 class Main extends PluginBase{
 
+public function onCommand(CommandSender $sender, Command $cmd, $label, array $args) {
+ 	if(strtolower($cmd->getName()) === "checkip"){
