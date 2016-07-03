@@ -14,3 +14,15 @@ class Main extends PluginBase{
 
 public function onCommand(CommandSender $sender, Command $cmd, $label, array $args) {
  	if(strtolower($cmd->getName()) === "checkip"){
+           if(isset($args[0])){
+              $name = $args[0];
+                $player = $this->getServer()->getPlayer($name);
+             $ip = $player->getAddress();
+                 $playername = $player->getName();     
+              $sender->sendMessage("§9".$playername."'s §aIP is §c".$ip."");
+
+               }else{
+                  $sender->sendMessage("§cUse /CheckIp <player>");
+
+                 }
+         }
