@@ -15,6 +15,7 @@ class Main extends PluginBase{
 public function onCommand(CommandSender $sender, Command $cmd, $label, array $args){
         if($cmd->getName() == "checkip"){
            if(isset($args[0])){
+             if($sender->hasPermission("CheckIP.command"){
               $name = $args[0];
                 $player = $this->getServer()->getPlayer($name);
              $ip = $player->getAddress();
