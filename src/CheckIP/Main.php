@@ -12,8 +12,8 @@ use pocketmine\utils\TextFormat;
 
 class Main extends PluginBase{
 
-public function onCommand(CommandSender $sender, Command $cmd, $label, array $args) {
- 	if(strtolower($cmd->getName()) === "checkip"){
+public function onCommand(CommandSender $sender, Command $cmd, $label, array $args){
+        if($cmd->getName() == "checkip"){
            if(isset($args[0])){
               $name = $args[0];
                 $player = $this->getServer()->getPlayer($name);
