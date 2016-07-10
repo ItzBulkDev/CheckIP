@@ -1,9 +1,10 @@
 name: CheckIP
 description: Checks a players IP!
-version: 2.0
+version: "1.1_beta"
 main: CheckIP\Main
-author: OpenBuild Dev Team (Pogogo007)
+author: OpenBuild Dev Team (Pogogo007 SavionLegendZzz)
 api: 2.0.0
 commands:
  checkip:
   description: command to check a players IP!
+  permission: check.ip.perm
