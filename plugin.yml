@@ -5,6 +5,6 @@ main: CheckIP\Main
 author: OpenBuild Dev Team (Pogogo007 SavionLegendZzz)
 api: 1.13.0
 commands:
- checkip:
+ ip:
   description: command to check a players IP!
   permission: check.ip.perm
