@@ -3,7 +3,7 @@ description: Checks a players IP!
 version: "1.1_beta"
 main: CheckIP\Main
 author: OpenBuild Dev Team (Pogogo007 SavionLegendZzz)
-api: 2.0.0
+api: 1.13.0
 commands:
  checkip:
   description: command to check a players IP!
