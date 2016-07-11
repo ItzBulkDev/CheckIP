@@ -29,7 +29,7 @@ class Main extends PluginBase implements Listener{
   public function onCommand(CommandSender $sender, Command $cmd, $label, array $args){
     if(strtolower($cmd->getName()) === "ip"){
       if(!($sender->hasPermission("check.ip.perm"))){
-        $sender->sendMessage(TF::RED."You don't have permission to use the /ip command!");
+        $sender->sendMessage(TF::RED."You don't have permission to use the command!");
         return;
       }
       if(isset($args[0])){
