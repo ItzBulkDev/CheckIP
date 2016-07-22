@@ -40,6 +40,8 @@ class Main extends PluginBase implements Listener{
           $ip = $target->getAddress();
           $sender->sendMessage(TF::GREEN.$target->getName()."'s IP is ".$ip."!");
         }
+      }else{
+       $sender->sendMessage(TF::RED."Use /ip [player]");
       }
     }
   }
